@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\BikeStores Sample Database - drop all objects.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BikeStores Sample Database - drop all objects.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\BikeStores Sample Database - load data.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BikeStores Sample Database - load data.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\BikeStores Sample Database - create objects.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BikeStores Sample Database - create objects.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\SQL Queries.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQL Queries.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQL Queries.sql - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (81))",
+              "DocumentMoniker": "C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\SQL Queries.sql",
+              "RelativeDocumentMoniker": "SQL Queries.sql",
+              "ToolTip": "C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\SQL Queries.sql - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (81))",
+              "RelativeToolTip": "SQL Queries.sql - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (81))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-01T10:27:08.83Z",
+              "EditorCaption": " - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (81))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BikeStores Sample Database - create objects.sql - DESKTOP-5UU7DIS.master (DESKTOP-5UU7DIS\\chmid (65))",
+              "DocumentMoniker": "C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\BikeStores Sample Database - create objects.sql",
+              "RelativeDocumentMoniker": "BikeStores Sample Database - create objects.sql",
+              "ToolTip": "C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\BikeStores Sample Database - create objects.sql - DESKTOP-5UU7DIS.master (DESKTOP-5UU7DIS\\chmid (65))",
+              "RelativeToolTip": "BikeStores Sample Database - create objects.sql - DESKTOP-5UU7DIS.master (DESKTOP-5UU7DIS\\chmid (65))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-01T10:27:07.659Z",
+              "EditorCaption": " - DESKTOP-5UU7DIS.master (DESKTOP-5UU7DIS\\chmid (65))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BikeStores Sample Database - load data.sql - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (80))",
+              "DocumentMoniker": "C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\BikeStores Sample Database - load data.sql",
+              "RelativeDocumentMoniker": "BikeStores Sample Database - load data.sql",
+              "ToolTip": "C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\BikeStores Sample Database - load data.sql - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (80))",
+              "RelativeToolTip": "BikeStores Sample Database - load data.sql - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (80))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-01T10:27:08.428Z",
+              "EditorCaption": " - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (80))"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BikeStores Sample Database - drop all objects.sql - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (79))",
+              "DocumentMoniker": "C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\BikeStores Sample Database - drop all objects.sql",
+              "RelativeDocumentMoniker": "BikeStores Sample Database - drop all objects.sql",
+              "ToolTip": "C:\\Users\\chmid\\OneDrive\\Desktop\\SQL\\BikeStores Sample Database - drop all objects.sql - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (79))",
+              "RelativeToolTip": "BikeStores Sample Database - drop all objects.sql - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (79))",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-01T10:27:07.985Z",
+              "EditorCaption": " - DESKTOP-5UU7DIS.BikeStores (DESKTOP-5UU7DIS\\chmid (79))"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
