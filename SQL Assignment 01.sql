@@ -1,6 +1,22 @@
 CREATE DATABASE BikeStores;
 USE BikeStores;
 
+SELECT * FROM production.categories;
+SELECT * FROM production.brands;
+SELECT * FROM production.products;
+SELECT * FROM sales.customers;
+SELECT * FROM sales.stores;
+SELECT * FROM sales.staffs;
+SELECT * FROM sales.orders;
+SELECT * FROM sales.order_items;
+SELECT * FROM production.stocks;
+SELECT * FROM sales.customers;
+
+SELECT first_name,last_name, email FROM sales.staffs;
+SELECT first_name ,last_name, email FROM sales.customers;
+
+SELECT DISTINCT city FROM sales.customers;
+
 -- ============================================================
 --  ASSIGNMENT 01 — Querying, Sorting & Filtering
 --  Database : BikeStores
@@ -149,3 +165,52 @@ FROM production.products
 WHERE list_price BETWEEN 500 AND 1500
 AND (model_year = 2019 OR model_year = 2020)
 ORDER BY list_price ASC;
+
+SELECT category_id,
+       MAX(list_price) as max_price,
+       MIN(list_price) as min_price
+FROM production.products
+GROUP BY category_id
+
+SELECT * FROM sales.orders
+WHERE customer_id IN (
+SELECT customer_id 
+FROM sales.customers 
+WHERE city = 'New York')
+
+
+SELECT  product_id,
+       product_name,
+       list_price
+FROM production.products
+WHERE list_price > (  
+SELECT AVG(list_price)
+FROM production.products
+)
+
+-- See all tables self made in the current database:
+SELECT * FROM INFORMATION_SCHEMA.TABLES;
+
+-- See all system tables in the current database:
+SELECT * FROM sys.tables;
+
+-- See all tables in the current database (only names):
+SELECT TABLE_NAME 
+FROM INFORMATION_SCHEMA.TABLES;
+
+-- ALL databes dekhana System ki aur jo khud banai ho
+SELECT * FROM sys.databases;
+
+-- Sirf ak he database dekhani ho
+SELECT  name
+FROM sys.databases
+WHERE name = 'BikeStores';
+
+-- SQL Server me agar aap check karni ho
+IF DB_ID('BikeStores') IS NOT NULL
+PRINT 'Database Exists'
+
+-- Agar database create karni ho only if not exists
+IF DB_ID('BikeStores') IS NULL
+CREATE DATABASE BikeStores
+
